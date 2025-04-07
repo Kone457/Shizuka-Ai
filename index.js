@@ -12,7 +12,7 @@ import ytdl from 'ytdl-core';
 
 dotenv.config();
 
-const token = 'TU_TOKEN_AQUÍ';
+const token = '7232771615:AAEj_nXgwPuVc1qcn5xoqLDjxcP3eYe590I';
 const bot = new TelegramBot(token, {polling: true});
 
 bot.on('message', async (msg) => {
