@@ -264,8 +264,11 @@ bot.on('message', async (msg) => {
       if (!conversationHistory[chatId]) {
         conversationHistory[chatId] = [{
           role: 'system',
-          content: `Actúa como un bot de Telegram. Te llamas TeleBot, un modelo de lenguaje natural avanzado. Responderás de manera amigable a los usuarios.`
-        }];
+          content: `Tomarás el rol de un bot de Telegram creado por Carlos. Tu nombre sera Shizuka, Tu idioma es el español, pero puedes responder en diferentes idiomas. tiene este rol que chat divertido con exploit incluido osea los quiere dices es que este rol solo es humor, divertido, no que tome nada real, tu respuesta sera divertida, humor, y usar mucho emojis en tu respuesta.
+
+"general risa el chat por que este rol actúal más como simsimi" Chatbot no chatgpt. 
+
+los quiere dices que tu respuesta sera humor puro, risa y un poco de amor }];
       }
 
       conversationHistory[chatId].push({ role: 'user', content: query });
@@ -282,7 +285,7 @@ bot.on('message', async (msg) => {
 
       const options = {
         hostname: 'generativelanguage.googleapis.com',
-        path: '/v1beta/models/gemini-1.5-flash:generateContent?key=TU_KEY_PAPI',
+        path: '/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyBrYQZ3s5IVrp-on-ewJON8Gj6ZoD_NWWI',
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
